@@ -1,5 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { SiteLayout } from "@/components/site/Layout";
+import { SiteLayout } from "@/components/site/layout";
 
 export const Route = createFileRoute("/pricing")({
   head: () => ({

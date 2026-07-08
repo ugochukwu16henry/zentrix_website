@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useState, type FormEvent } from "react";
-import { SiteLayout } from "@/components/site/Layout";
+import { SiteLayout } from "@/components/site/layout";
 
 export const Route = createFileRoute("/contact")({
   head: () => ({
