@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 960 510" xmlns="http://www.w3.org/2000/svg"
+     width="960" height="510"
+     font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, sans-serif">
+
+  <!-- ── Page background ──────────────────────────────────────────────── -->
+  <rect width="960" height="510" fill="#F7F7F5"/>
+
+  <!-- ══ HEADER ══════════════════════════════════════════════════════════ -->
+  <rect x="0" y="0" width="960" height="52" fill="#0B0C10"/>
+
+  <!-- Mini icon mark -->
+  <svg x="20" y="12" width="28" height="28" viewBox="0 0 100 100">
+    <polygon points="10,10 90,10 90,24 10,24" fill="#ffffff"/>
+    <polygon points="90,24 90,37 26,76 10,76 10,63 74,24" fill="#00FF66"/>
+    <polygon points="10,76 90,76 90,90 10,90" fill="#ffffff"/>
+  </svg>
+
+  <text x="57" y="33"
+    font-weight="900" font-size="18" letter-spacing="-0.5"
+    fill="#ffffff">zentrix</text>
+
+  <text x="136" y="33"
+    font-size="11" letter-spacing="0.08em"
+    fill="rgba(255,255,255,0.35)">Brand Identity System · v1.0</text>
+
+  <circle cx="944" cy="26" r="5" fill="#00FF66"/>
+
+  <!-- ══ ICON MARK ════════════════════════════════════════════════════════ -->
+
+  <line x1="0" y1="69" x2="960" y2="69" stroke="#e4e4e4" stroke-width="1"/>
+  <text x="0" y="66"
+    font-size="9" font-weight="700" letter-spacing="0.18em"
+    fill="#bbbbbb">ICON MARK</text>
+
+  <!-- Primary (white bg) -->
+  <rect x="0"   y="78" width="300" height="220" fill="#ffffff"/>
+  <svg x="70"  y="109" width="160" height="160" viewBox="0 0 100 100">
+    <polygon points="10,10 90,10 90,24 10,24" fill="#0B0C10"/>
+    <polygon points="90,24 90,37 26,76 10,76 10,63 74,24" fill="#00FF66"/>
+    <polygon points="10,76 90,76 90,90 10,90" fill="#0B0C10"/>
+  </svg>
+
+  <!-- Inverted (black bg) -->
+  <rect x="330" y="78" width="300" height="220" fill="#000000"/>
+  <svg x="400" y="109" width="160" height="160" viewBox="0 0 100 100">
+    <polygon points="10,10 90,10 90,24 10,24" fill="#ffffff"/>
+    <polygon points="90,24 90,37 26,76 10,76 10,63 74,24" fill="#00FF66"/>
+    <polygon points="10,76 90,76 90,90 10,90" fill="#ffffff"/>
+  </svg>
+
+  <!-- Monochrome (gray bg) -->
+  <rect x="660" y="78" width="300" height="220" fill="#E0E0E0"/>
+  <svg x="730" y="109" width="160" height="160" viewBox="0 0 100 100">
+    <polygon points="10,10 90,10 90,24 10,24" fill="#0B0C10"/>
+    <polygon points="90,24 90,37 26,76 10,76 10,63 74,24" fill="#0B0C10"/>
+    <polygon points="10,76 90,76 90,90 10,90" fill="#0B0C10"/>
+  </svg>
+
+  <!-- Icon variant labels -->
+  <text x="150" y="316" text-anchor="middle"
+    font-size="11" font-weight="600" fill="#888">Primary</text>
+  <text x="480" y="316" text-anchor="middle"
+    font-size="11" font-weight="600" fill="#888">Inverted</text>
+  <text x="810" y="316" text-anchor="middle"
+    font-size="11" font-weight="600" fill="#888">Monochrome</text>
+
+  <!-- ══ WORDMARK ══════════════════════════════════════════════════════════ -->
+
+  <line x1="0" y1="337" x2="960" y2="337" stroke="#e4e4e4" stroke-width="1"/>
+  <text x="0" y="334"
+    font-size="9" font-weight="700" letter-spacing="0.18em"
+    fill="#bbbbbb">WORDMARK</text>
+
+  <!-- Primary (white bg) -->
+  <rect x="0"   y="346" width="300" height="124" fill="#ffffff"/>
+  <svg x="20"  y="380" width="260" height="56" viewBox="0 0 320 80">
+    <text x="16" y="58"
+      font-family="Inter, system-ui, -apple-system, sans-serif"
+      font-weight="900" font-size="52" letter-spacing="-1.5"
+      fill="#0B0C10">zentrix</text>
+    <line x1="185" y1="56" x2="213" y2="13"
+      stroke="#00FF66" stroke-width="5.5" stroke-linecap="round"/>
+  </svg>
+
+  <!-- Inverted (black bg) -->
+  <rect x="330" y="346" width="300" height="124" fill="#000000"/>
+  <svg x="350" y="380" width="260" height="56" viewBox="0 0 320 80">
+    <text x="16" y="58"
+      font-family="Inter, system-ui, -apple-system, sans-serif"
+      font-weight="900" font-size="52" letter-spacing="-1.5"
+      fill="#ffffff">zentrix</text>
+    <line x1="185" y1="56" x2="213" y2="13"
+      stroke="#00FF66" stroke-width="5.5" stroke-linecap="round"/>
+  </svg>
+
+  <!-- Monochrome (gray bg) -->
+  <rect x="660" y="346" width="300" height="124" fill="#E0E0E0"/>
+  <svg x="680" y="380" width="260" height="56" viewBox="0 0 320 80">
+    <text x="16" y="58"
+      font-family="Inter, system-ui, -apple-system, sans-serif"
+      font-weight="900" font-size="52" letter-spacing="-1.5"
+      fill="#0B0C10">zentrix</text>
+    <line x1="185" y1="56" x2="213" y2="13"
+      stroke="#0B0C10" stroke-width="5.5" stroke-linecap="round"/>
+  </svg>
+
+  <!-- Wordmark variant labels -->
+  <text x="150" y="488" text-anchor="middle"
+    font-size="11" font-weight="600" fill="#888">Primary</text>
+  <text x="480" y="488" text-anchor="middle"
+    font-size="11" font-weight="600" fill="#888">Inverted</text>
+  <text x="810" y="488" text-anchor="middle"
+    font-size="11" font-weight="600" fill="#888">Monochrome</text>
+
+  <!-- ── Colour tokens footer ─────────────────────────────────────────── -->
+  <line x1="0" y1="500" x2="960" y2="500" stroke="#e4e4e4" stroke-width="1"/>
+
+  <!-- Obsidian swatch -->
+  <rect x="0" y="503" width="14" height="5" rx="1" fill="#0B0C10"/>
+  <text x="18" y="508" font-size="8" fill="#aaa" letter-spacing="0.04em">#0B0C10 Obsidian</text>
+
+  <!-- Volt Green swatch -->
+  <rect x="150" y="503" width="14" height="5" rx="1" fill="#00FF66"/>
+  <text x="168" y="508" font-size="8" fill="#aaa" letter-spacing="0.04em">#00FF66 Volt Green</text>
+
+  <!-- White swatch -->
+  <rect x="320" y="503" width="14" height="5" rx="1" fill="#ffffff" stroke="#e0e0e0" stroke-width="0.5"/>
+  <text x="338" y="508" font-size="8" fill="#aaa" letter-spacing="0.04em">#FFFFFF White</text>
+
+  <!-- Gray swatch -->
+  <rect x="450" y="503" width="14" height="5" rx="1" fill="#E0E0E0"/>
+  <text x="468" y="508" font-size="8" fill="#aaa" letter-spacing="0.04em">#E0E0E0 Light Gray</text>
+
+  <!-- Black swatch -->
+  <rect x="610" y="503" width="14" height="5" rx="1" fill="#000000"/>
+  <text x="628" y="508" font-size="8" fill="#aaa" letter-spacing="0.04em">#000000 Black</text>
+
+</svg>

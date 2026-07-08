@@ -10,6 +10,7 @@ import {
 import { type ReactNode } from "react";
 
 import appCss from "../styles.css?url";
+import { brand } from "@/lib/brand";
 
 function NotFoundComponent() {
   return (
@@ -79,7 +80,9 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:title", content: "Zentrix Software Solutions — Every software problem, solved." },
       { property: "og:description", content: "Premium software engineering studio. Web, mobile, cloud, AI, and product design." },
       { property: "og:type", content: "website" },
+      { property: "og:image", content: brand.ogImage },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:image", content: brand.ogImage },
     ],
     links: [
       {
@@ -89,7 +92,9 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
       { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" },
-      { rel: "icon", href: "/favicon.ico", type: "image/x-icon" },
+      { rel: "icon", href: brand.favicon32, type: "image/png", sizes: "32x32" },
+      { rel: "icon", href: brand.favicon16, type: "image/png", sizes: "16x16" },
+      { rel: "apple-touch-icon", href: brand.favicon128, type: "image/png", sizes: "128x128" },
     ],
   }),
 

@@ -1,14 +1,17 @@
 import { Link } from "@tanstack/react-router";
 
+import { brand } from "@/lib/brand";
+
 export function Footer() {
   return (
     <footer className="border-t border-border/60 mt-24">
       <div className="mx-auto max-w-7xl px-6 py-12 grid gap-10 md:grid-cols-4">
         <div className="md:col-span-2">
-          <div className="flex items-center gap-2 font-display text-lg font-semibold">
-            <span className="grid h-8 w-8 place-items-center rounded-md bg-primary text-primary-foreground font-bold">Z</span>
-            Zentrix Software Solutions
-          </div>
+          <img
+            src={brand.wordmark}
+            alt="Zentrix Software Solutions"
+            className="h-8 w-auto rounded-sm bg-white px-2 py-1"
+          />
           <p className="mt-3 text-sm text-muted-foreground max-w-sm">
             Every software problem, solved. Premium engineering for teams and founders — from idea to production.
           </p>
