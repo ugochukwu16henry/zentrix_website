@@ -11,6 +11,7 @@ import { type ReactNode } from "react";
 
 import appCss from "../styles.css?url";
 import { brand } from "@/lib/brand";
+import { absoluteUrl } from "@/lib/site";
 
 function NotFoundComponent() {
   return (
@@ -80,9 +81,9 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:title", content: "Zentrix Software Solutions — Every software problem, solved." },
       { property: "og:description", content: "Premium software engineering studio. Web, mobile, cloud, AI, and product design." },
       { property: "og:type", content: "website" },
-      { property: "og:image", content: brand.ogImage },
+      { property: "og:image", content: absoluteUrl(brand.ogImage) },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:image", content: brand.ogImage },
+      { name: "twitter:image", content: absoluteUrl(brand.ogImage) },
     ],
     links: [
       {
