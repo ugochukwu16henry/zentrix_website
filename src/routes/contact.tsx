@@ -30,7 +30,7 @@ function Contact() {
     const body = encodeURIComponent(
       `Name: ${name}\nEmail: ${email}\nCompany: ${company}\n\n${message}`,
     );
-    window.location.href = `mailto:hello@zentrix.software?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:zentrix195@gmail.com?subject=${subject}&body=${body}`;
     setSent(true);
   }
 
@@ -46,7 +46,16 @@ function Contact() {
           <div className="mt-10 space-y-6 text-sm">
             <div>
               <div className="text-muted-foreground uppercase tracking-wider text-xs">Email</div>
-              <a href="mailto:hello@zentrix.software" className="text-lg hover:text-primary">hello@zentrix.software</a>
+              <a href="mailto:zentrix195@gmail.com" className="text-lg hover:text-primary">zentrix195@gmail.com</a>
+            </div>
+            <div>
+              <div className="text-muted-foreground uppercase tracking-wider text-xs">Phone</div>
+              <div className="mt-1">
+                Uyo: <a href="tel:+2349015718484" className="hover:text-primary">+234 901 571 8484</a>
+              </div>
+              <div>
+                Benue: <a href="tel:+2349033957353" className="hover:text-primary">+234 903 395 7353</a>
+              </div>
             </div>
             <div>
               <div className="text-muted-foreground uppercase tracking-wider text-xs">Office</div>
@@ -74,7 +83,7 @@ function Contact() {
               <h3 className="mt-4 text-xl font-display font-semibold">Your email client just opened.</h3>
               <p className="mt-2 text-sm text-muted-foreground">
                 Send the drafted message and we'll respond within one business day. If nothing opened, email us directly at{" "}
-                <a href="mailto:hello@zentrix.software" className="text-primary hover:underline">hello@zentrix.software</a>.
+                <a href="mailto:zentrix195@gmail.com" className="text-primary hover:underline">zentrix195@gmail.com</a>.
               </p>
             </div>
           ) : (

@@ -29,7 +29,9 @@ export function Footer() {
         <div>
           <h4 className="text-sm font-semibold mb-3">Contact</h4>
           <ul className="space-y-2 text-sm text-muted-foreground">
-            <li>hello@zentrix.software</li>
+            <li><a href="mailto:zentrix195@gmail.com" className="hover:text-foreground">zentrix195@gmail.com</a></li>
+            <li>Uyo: <a href="tel:+2349015718484" className="hover:text-foreground">+234 901 571 8484</a></li>
+            <li>Benue: <a href="tel:+2349033957353" className="hover:text-foreground">+234 903 395 7353</a></li>
             <li>27, Alor Street, Otukpo</li>
             <li>Benue State, Nigeria</li>
           </ul>
